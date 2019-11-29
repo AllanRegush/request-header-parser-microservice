@@ -1,0 +1,29 @@
+{
+  "name": "request-header-parser-microservice",
+  "version": "1.0.0",
+  "description": "FCC request header parser microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllanRegush/request-header-parser-microservice.git"
+  },
+  "author": "Allan Regush",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AllanRegush/request-header-parser-microservice/issues"
+  },
+  "homepage": "https://github.com/AllanRegush/request-header-parser-microservice#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.1",
+    "supertest": "^4.0.2"
+  }
+}
