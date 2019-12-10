@@ -3,7 +3,7 @@ const router = express.Router();
 const requestHeaderController = require('../controllers/requestHeaderController');
 
 
-router.get('/');
+router.get('/', requestHeaderController.index);
 
 router.get('/api/whoami', requestHeaderController.getHeader );
 

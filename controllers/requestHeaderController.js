@@ -1,3 +1,8 @@
+exports.index = (req, res) => {
+    res.render('index');
+}
+
+
 exports.getHeader = (req, res) => {
     // console.log(req.headers);
     res.json({
